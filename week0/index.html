@@ -3,6 +3,9 @@
     <title>Week 0</title>
     <meta name="viewport" content="width=device-width, intital-scale=1.0">
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
         h3 {
             font-size: xx-large;
             text-align: center;
@@ -30,6 +33,17 @@
         .section img {
             padding: 10px;
             border: 1px dashed black;
+        }
+
+        @media (max-width:700px) {
+            .section {
+                margin:10px;
+                margin-bottom: 4cm;
+                padding: 0;
+            }
+            .grid {
+                grid-template-columns: 100%;
+            }
         }
     </style>
 </head>
@@ -64,11 +78,11 @@
     <div class="section grid">
         <div><img src="static/simplePatterns/images/1.png"><p>input: E <a href="static/simplePatterns/programs/1.exe" download=""><button>Download Program</button></a></p> </div>
         <div><img src="static/simplePatterns/images/2.png"><p>input: 5 <a href="static/simplePatterns/programs/2.exe" download=""><button>Download Program</button></a></p> </div>
-        <div><img src="static/simplePatterns/images/3.png"><p>input: 5 <a href="static/simplePatterns/programs/3.exe" download=""><button>Download Program</button></a></p> </div>
-        <div><img src="static/simplePatterns/images/4.png"><p>input: 5 <a href="static/simplePatterns/programs/4.exe" download=""><button>Download Program</button></a></p> </div>
+        <div><img src="static/simplePatterns/images/3.png"><p>Butterfly, input: 5 <a href="static/simplePatterns/programs/3.exe" download=""><button>Download Program</button></a></p> </div>
+        <div><img src="static/simplePatterns/images/4.png"><p>Diamond, input: 5 <a href="static/simplePatterns/programs/4.exe" download=""><button>Download Program</button></a></p> </div>
         <div><img src="static/simplePatterns/images/5.png"><p>input: 5 <a href="static/simplePatterns/programs/5.exe" download=""><button>Download Program</button></a></p> </div>
-        <div><img src="static/simplePatterns/images/6.png"><p>input: 5 <a href="static/simplePatterns/programs/6.exe" download=""><button>Download Program</button></a></p> </div>
-        <div><img src="static/simplePatterns/images/7.png"><p>input: 5 <a href="static/simplePatterns/programs/7.exe" download=""><button>Download Program</button></a></p> </div>
+        <div><img src="static/simplePatterns/images/6.png"><p>rhombus, input: 5 <a href="static/simplePatterns/programs/6.exe" download=""><button>Download Program</button></a></p> </div>
+        <div><img src="static/simplePatterns/images/7.png"><p>hollow diamond, input: 5 <a href="static/simplePatterns/programs/7.exe" download=""><button>Download Program</button></a></p> </div>
         <div><img src="static/simplePatterns/images/8.png"><p>input: 5 <a href="static/simplePatterns/programs/8.exe" download=""><button>Download Program</button></a></p> </div>
         <div><img src="static/simplePatterns/images/9.png"><p>input: 5 <a href="static/simplePatterns/programs/9.exe" download=""><button>Download Program</button></a></p> </div>
         <div><img src="static/simplePatterns/images/10.png"><p>input: 5 <a href="static/simplePatterns/programs/10.exe" download=""><button>Download Program</button></a></p> </div>
@@ -78,8 +92,8 @@
         <div><img src="static/interestingPatterns/images/1.png"><p>input: E <a href="static/interestingPatterns/programs/1.exe" download=""><button>Download Program</button></a></p> </div>
         <div><img src="static/interestingPatterns/images/2.png"><p>input: 5 <a href="static/interestingPatterns/programs/2.exe" download=""><button>Download Program</button></a></p> </div>
         <div><img src="static/interestingPatterns/images/3.png"><p>input: 5 <a href="static/interestingPatterns/programs/3.exe" download=""><button>Download Program</button></a></p> </div>
-        <div><img src="static/interestingPatterns/images/4.png"><p>input: height=5, lenght=8 <a href="static/interestingPatterns/programs/4.exe" download=""><button>Download Program</button></a></p> </div>
-        <div><img src="static/interestingPatterns/images/5.png"><p>input: waves=3, height=4 <a href="static/interestingPatterns/programs/5.exe" download=""><button>Download Program</button></a></p> </div>
-        <div><img src="static/interestingPatterns/images/6.png"><p>input: 10 <a href="static/interestingPatterns/programs/6.exe" download=""><button>Download Program</button></a></p> </div>
+        <div><img src="static/interestingPatterns/images/4.png"><p>A boat: height=5, lenght=8 <a href="static/interestingPatterns/programs/4.exe" download=""><button>Download Program</button></a></p> </div>
+        <div><img src="static/interestingPatterns/images/5.png"><p>Waves: x=3, y=4 <a href="static/interestingPatterns/programs/5.exe" download=""><button>Download Program</button></a></p> </div>
+        <div><img src="static/interestingPatterns/images/6.png"><p>Cube: 10 <a href="static/interestingPatterns/programs/6.exe" download=""><button>Download Program</button></a></p> </div>
     </div>
 </body>
